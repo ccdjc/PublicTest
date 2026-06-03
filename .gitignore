@@ -1,0 +1,13 @@
+# 个人配置和临时文件
+.lesshst
+.bash_history
+.bashrc
+.gitconfig
+.ssh/
+.vscode/
+*.log
+*.tmp
+
+# 编译产物（根据您的项目补充）
+*.o
+*.exe
