@@ -4,7 +4,7 @@ void sortColors(int *nums, int numsSize)
     int red = 0, white = 0;
     // nums = (int *)malloc(numsSize * sizeof(int));
     // numsSize = sizeof(nums) / sizeof(nums[0]);
-    // 先找出有多少个红、白、蓝qwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+    // 先找出有多少个红、白、蓝
     for (int i = 0; i < numsSize; i++)
     {
         if (nums[i] == 0)
